@@ -65,11 +65,11 @@ def analyze_sentiment_and_keywords(input_csv, subreddit):
     sentiment_results.to_csv(sentiment_output_csv, index=False)
 
 analyze_sentiment_and_keywords(
-    input_csv='reddit_scrape_ComputerSecurity.csv',
+    input_csv='INSERT YOUR PATH',
     subreddit='ComputerSecurity'
 )
 
 analyze_sentiment_and_keywords(
-    input_csv='reddit_scrape_DigitalPrivacy.csv',
+    input_csv='INSERT YOUR PATH',
     subreddit='DigitalPrivacy'
 )

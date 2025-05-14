@@ -29,7 +29,7 @@ def scrape_subreddit(base_url, endpoint, category):
         time.sleep(0.5)
 
     df = pd.DataFrame(dataset)
-    df.to_csv(f'C:\\Tian-Starter-Task\\reddit_scrape_{endpoint[3:]}.csv', index=False)
+    df.to_csv(f'C:\\INSERT YOUR PATH\\reddit_scrape_{endpoint[3:]}.csv', index=False)
 
     
 scrape_subreddit('https://www.reddit.com/','/r/DigitalPrivacy' , '/new')
